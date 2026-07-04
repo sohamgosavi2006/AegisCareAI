@@ -1,0 +1,5 @@
+.pio/
+.platformio/
+.vscode/
+include/Secrets.h
+

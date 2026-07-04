@@ -1,0 +1,20 @@
+# AegisCare AI Nano Controller
+
+Phase 1 firmware for the Arduino Nano controller. The desktop application remains the system master; this firmware provides the OLED operator interface, joystick navigation, safety buttons, and newline-delimited JSON over USB serial.
+
+## Build
+
+```sh
+python3 -m venv .venv
+.venv/bin/python -m pip install -r requirements.txt
+PLATFORMIO_CORE_DIR="$PWD/.platformio" .venv/bin/pio run
+```
+
+## Upload and monitor
+
+```sh
+PLATFORMIO_CORE_DIR="$PWD/.platformio" .venv/bin/pio run --target upload
+PLATFORMIO_CORE_DIR="$PWD/.platformio" .venv/bin/pio device monitor --baud 115200
+```
+
+See [Phase1-EmbeddedFirmware.md](../Documentation/Phase1-EmbeddedFirmware.md) for architecture, wiring, protocol, and testing.

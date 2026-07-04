@@ -1,0 +1,4 @@
+RUN THE APPLICATION -> 
+
+chmod +x run-aegiscare.sh
+./run-aegiscare.sh

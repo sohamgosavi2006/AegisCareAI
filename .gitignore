@@ -1,0 +1,34 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# PlatformIO
+.pio/
+
+# Build
+build/
+
+# VS Code
+.vscode/ipch
+.vscode/.browse*
+.vscode/c_cpp_properties.json
+.vscode/launch.json
+
+# macOS
+.DS_Store
+
+# Database
+*.db
+*.db-shm
+*.db-wal
+
+# Logs
+*.log
+
+# Temporary
+*.tmp
+*.cache
+
+DesktopApp/third_party/Qt/
