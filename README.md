@@ -34,9 +34,14 @@ Unlike traditional healthcare software, AegisCareAI connects hardware, AI models
 
 ---
 
-# Working Model -
+# Working Prototype -
 
 <img width="3024" height="4032" alt="Developer" src="https://github.com/user-attachments/assets/87e9e0be-bbe5-4480-b6ed-44f6234c9290" />
+
+
+# Prototype Connection -
+
+<img width="1024" height="1536" alt="Prototype Connection" src="https://github.com/user-attachments/assets/3187fdca-50ac-48d4-9302-a8bdcf5efb8f" />
 
 
 ---
