@@ -1,4 +1,4 @@
 # Python tooling used to provision and build the C++/Qt desktop application.
 aqtinstall==3.3.0
-cmake
+cmake>=3.16
 ninja

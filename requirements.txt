@@ -1,0 +1,5 @@
+# Aggregated Python dependencies for the repository build and tooling workflow.
+aqtinstall==3.3.0
+cmake>=3.16
+ninja
+platformio
